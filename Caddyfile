@@ -1,0 +1,24 @@
+:80 {
+  root * /usr/share/caddy
+  file_server
+
+  header {
+    X-Frame-Options "SAMEORIGIN"
+    X-XSS-Protection "1; mode=block"
+    X-Content-Type-Options "nosniff"
+    Content-Security-Policy "default-src 'self'; script-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self';"
+    Referrer-Policy "strict-origin-when-cross-origin"
+    Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    -Server
+  }
+
+  encode gzip zstd
+
+  handle_errors {
+    @404 {
+      expression {http.error.status_code} == 404
+    }
+    rewrite @404 /404.html
+    file_server
+  }
+}

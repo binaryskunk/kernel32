@@ -1,0 +1,44 @@
+baseURL = "https://kernel32.xyz"
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+languageCode = "pt-br"
+theme = "hugo-classic"
+title = "notas do cyberespaço"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineAnchors = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "catppuccin-mocha"
+tabWidth = 4
+
+[permalinks]
+post = "/post/:slug/"
+
+[[menu.main]]
+name = "Categorias"
+url = "/categories/"
+weight = 1
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 2
+[[menu.feed]]
+name = "RSS"
+url = "/index.xml"
+
+[params]
+custom_css = ["css/theme-override.css"]
+description = "A vida de uma cientista da computação amadora"
+footer = '[notas do cyberespaço](https://kernel32.xyz) © 2023 -- 2025 por [Lavínia "Xenia" Rodriguês](https://github.com/binaryskunk) é licenciado pela [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)'
