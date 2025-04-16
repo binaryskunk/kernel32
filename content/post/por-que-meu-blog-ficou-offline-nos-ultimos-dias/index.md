@@ -2,7 +2,7 @@
 title = 'Notícia rápida --- por que meu blog ficou offline nos ultimos dias?'
 date = 2025-04-16
 slug = 'por-que-meu-blog-ficou-offline-nos-ultimos-dias'
-draft = true
+draft = false
 categories = ["noticias rapidas"]
 tags = ["noticias rapidas"]
 +++
