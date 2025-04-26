@@ -69,7 +69,7 @@ onde `/dev/sdc` é o dispositivo de bloco do seu pendrive, e `/dev/sdc1` a parti
 ```bash
 $ sudo mkdir -v /mnt/{usb,iso}
 $ sudo mount -v -o rw,uid=1000 /dev/sdc1 /mnt/usb               # montando o pendrive
-$ sudo mkdir -v -o ro,loop ./vmware-esxi-6.0.iso /mnt/iso       # montando a ISO
+$ sudo mount -v -o ro,loop ./vmware-esxi-6.0.iso /mnt/iso       # montando a ISO
 ```
 
 Substitua `1000` pelo UID do seu usuário. Você pode checar isso com o comando `id`.
