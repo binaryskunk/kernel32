@@ -47,7 +47,7 @@ detalhados sobre sua estrutura, métodos de identificação e mitigação
 2023 -- 2024
 
 - Desenvolvi o back-end de uma plataforma de autodiagnóstico de adequação a LGPD
-para o Sebrae em Java, utilizando Spring, banco de dados PostgreSQL e seguindo a
+para o Sebrae em Java, utilizando Spring, banco de dados PostgreSQL e seguindo
 boas práticas como SOLID, TDD, arquitetura hexagonal, e *design patterns*
 
 ### Pesquisadora de Síntese de Voz e Canto via IA @ UniverStar Voices
@@ -87,7 +87,7 @@ automatizada.
 
 Symbolic Skunk é capaz de entender e analisar executáveis, sem acesso a seu
 código-fonte original, formular hipóteses sobre seu funcionamento interno,
-buscar evidências a favor e/ou contra as hipóteses formuladas, e seguir um
+buscar evidências a favor e/ou contra as hipóteses formuladas, e seguir uma
 cadeia de raciocínio que emula o método ciéntifico para auditar sistemas.
 
 ### SkTD (em andamento)
