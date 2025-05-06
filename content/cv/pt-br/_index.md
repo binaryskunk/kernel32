@@ -4,7 +4,7 @@ slug = 'pt-br'
 +++
 
 O endereço permanente desta página é
-[`kernel32.xyz/resume/pt-br`](https://kernel32.xyz/resume/pt-br/).
+[`kernel32.xyz/cv/pt-br`](https://kernel32.xyz/cv/pt-br/).
 
 # Lavínia Rodrigues
 
